@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Análise de Fraudes | Márcio.dev</title>
-<meta name="description" content="Detecção e análise de transações suspeitas com SQL, indicadores e regras de negócio.">
+<meta name="description" content="Este projeto tem como objetivo demonstrar as principais técnicas de análise de dados utilizando exclusivamente SQL e um banco de dados, explorando consultas, filtros, agregações, cruzamento de informações e identificação de padrões para analisar transações financeiras e detectar possíveis fraudes.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -45,19 +45,18 @@
     <a href="../index.html#projetos" class="crumb"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Voltar aos projetos</a>
     <div class="proj-hero-grid">
       <div>
-        <span class="sec-tag">Projeto</span>
+        <span class="sec-tag">Fonte: kaggle-> Synthetic Financial Datasets For Fraud Detection</span>
         <h1>Análise de Fraudes</h1>
-        <p class="lead">Detecção e análise de transações suspeitas com SQL, indicadores e regras de negócio.</p>
-        <div class="tag-row"><span class="tag">Tecnologia 1</span><span class="tag">Tecnologia 2</span></div>
+        <p class="lead">Este projeto tem como objetivo demonstrar as principais técnicas de análise de dados utilizando exclusivamente SQL e um banco de dados, explorando consultas, filtros, agregações, cruzamento de informações e identificação de padrões para analisar transações financeiras e detectar possíveis fraudes.</p>
+        <div class="tag-row"><span class="tag">Postgres SQL</span><span class="tag">CSV</span></div>
         <div class="btn-row">
-          <a href="#" class="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Ver demo</a>
-          <a href="#" class="btn btn-outline"><i class="fa-brands fa-github" aria-hidden="true"></i> Código no GitHub</a>
+          <a href="https://github.com/marcioottoboni/Analise_Fraude" class="btn btn-outline"><i class="fa-brands fa-github" aria-hidden="true"></i> Código no GitHub</a>
         </div>
       </div>
       <div class="photo-frame">
         <div class="cover-inner">
           <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
-          <span class="cover-result">↳ Descreva aqui o resultado alcançado</span>
+          <span class="cover-result">↳ Análise comentada de mais de 600 mil transações usando apenas SQL (PostgreSQL) para entender o comportamento da fraude. Investiguei padrões por tipo de transação, estado, faixa de valor e movimentação de saldo, além de contas que recebem fraude repetidamente e transações em sequência. Também medi a eficácia da regra de bloqueio atual, comparando o que ela marcou com o que de fato foi fraude.</span>
           <!-- Para usar uma imagem de capa: <img src="../img/projetos/analise-fraudes-capa.jpg" alt="Capa do projeto"> -->
         </div>
       </div>
@@ -69,9 +68,9 @@
   <div class="container">
     <div class="sec-head reveal"><span class="sec-tag">Visão geral</span><h2 class="sec-title">Sobre o <span class="accent">projeto</span></h2></div>
     <div class="overview-grid">
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></div><h3>O problema</h3><p>Descreva aqui o desafio ou a necessidade que originou o projeto.</p></div>
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></div><h3>A solução</h3><p>Descreva aqui a abordagem adotada e as decisões técnicas.</p></div>
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-user-gear" aria-hidden="true"></i></div><h3>Meu papel</h3><p>Descreva aqui o que você fez e com quem trabalhou.</p></div>
+      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></div><h3>O problema</h3><p>O projeto consiste em analisar um conjunto de dados de transações financeiras para identificar padrões de fraude utilizando exclusivamente SQL e um banco de dados PostgreSQL.</p></div>
+      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></div><h3>A solução</h3><p>A solução envolveu a criação de consultas SQL comentadas para extrair insights sobre os padrões de fraude identificados.</p></div>
+      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-user-gear" aria-hidden="true"></i></div><h3>Meu papel</h3><p>Conduzi a análise dos dados comentando a lógica por trás da análise segundo a experiência adquirida no decorrer de anos trabalhando com dados financeiros.</p></div>
     </div>
   </div>
 </section>
@@ -80,9 +79,8 @@
   <div class="container">
     <div class="sec-head reveal"><span class="sec-tag">Destaques</span><h2 class="sec-title">Principais <span class="accent">funcionalidades</span></h2></div>
     <div class="feature-grid">
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></div><h3>Funcionalidade</h3><p>Descreva aqui.</p></div>
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></div><h3>Funcionalidade</h3><p>Descreva aqui.</p></div>
-      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-credit-card" aria-hidden="true"></i></div><h3>Funcionalidade</h3><p>Descreva aqui.</p></div>
+      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-credit-card" aria-hidden="true"></i></div><h3>Funcionalidade</h3><p>O projeto visa identificar padrões de fraude em transações financeiras através de uma análise detalhada utilizando SQL e PostgreSQL.</p></div>
+      <div class="info-card reveal"><div class="info-ic"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i></div><h3>Finalidade</h3><p>Auxiliar profissionais de segurança na detecção de fraudes em tempo real.</p></div>
     </div>
   </div>
 </section>
@@ -90,18 +88,16 @@
 <section class="section-alt">
   <div class="container">
     <div class="sec-head reveal"><span class="sec-tag">Stack</span><h2 class="sec-title">Tecnologias <span class="accent">utilizadas</span></h2></div>
-    <div class="tech-row reveal"><span class="chip">Tecnologia 1</span><span class="chip">Tecnologia 2</span></div>
+    <div class="tech-row reveal"><span class="chip">
+    <a href="#" class="btn btn-primary"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>SQL</a>
+    </span>
+    <span class="chip">
+      <a href="#" class="btn btn-primary"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>Python</a>
+    </span>
+    <span class="chip">
+      <a href="#" class="btn btn-primary"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> PostgreSQL</a>
+    </span>
   </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="sec-head reveal"><span class="sec-tag">Visual</span><h2 class="sec-title">Capturas de <span class="accent">tela</span></h2></div>
-    <div class="shots">
-      <div class="shot wide reveal"><div class="shot-empty"><i class="fa-regular fa-image" aria-hidden="true"></i>Adicione uma imagem em img/projetos/ e troque este bloco por &lt;img src="../img/projetos/analise-fraudes-1.png" alt="..."&gt;</div></div>
-      <div class="shot reveal"><div class="shot-empty"><i class="fa-regular fa-image" aria-hidden="true"></i>Captura 2</div></div>
-      <div class="shot reveal"><div class="shot-empty"><i class="fa-regular fa-image" aria-hidden="true"></i>Captura 3</div></div>
-    </div>
   </div>
 </section>
 
@@ -109,7 +105,7 @@
   <div class="container">
     <div class="result-banner reveal">
       <div class="result-ic"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
-      <div><h3>Resultado</h3><p>Descreva aqui o resultado alcançado</p></div>
+      <div><h3>Resultado</h3><p>Construí uma análise exploratória completa de fraude em mais de 600 mil transações, usando apenas SQL (PostgreSQL). O trabalho identificou em quais tipos de transação, estados e faixas de valor a fraude se concentra, os padrões de saldo que a denunciam (como contas esvaziadas) e as contas que recebem fraude repetidamente. Também avaliei a regra de bloqueio atual, medindo quantas fraudes ela deixa escapar. O resultado foi um roteiro de análise documentado e reutilizável, com orientações de interpretação para cada etapa.</p></div>
     </div>
     <div class="proj-nav" style="margin-top:40px;">
       <a class="proj-nav-card" href="../index.html#projetos"><span>← Voltar</span><strong>Todos os projetos</strong></a>
